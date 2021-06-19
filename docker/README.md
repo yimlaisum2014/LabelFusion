@@ -1,6 +1,6 @@
 # LabelFusion Docker
 Base image : nvidia/cudagl:9.2-devel-ubuntu16.04
-- system Ubuntu 16.04
+- Ubuntu 16.04
 - CUDA 9.2
 - openGL
 - Director
@@ -8,14 +8,17 @@ Base image : nvidia/cudagl:9.2-devel-ubuntu16.04
 ## Usage
 
 Building docker image
+```bash
+$ cd LabelFusion/docker/LabelFusion
+$ source build.sh
 ```
-source build.sh
+ 
+Enter Label Fusion
+```bash
+$ cd LabelFusion/docker/LabelFusion
+$ ./docker_run.sh /path of data
 ```
 
-Enter Label Fusion
-```
-./docker_run.sh /path of data
-```
 
 ### Director
 director : [using ianchen-tw / director](https://github.com/ianchen-tw/director) 
