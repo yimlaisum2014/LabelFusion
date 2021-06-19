@@ -1,7 +1,3 @@
-===========
-What is Different? 
-Dockerfile refer to https://github.com/ianchen-tw/LabelFusion/blob/master/docker/labelfusion.dockerfile
-Add ros and realsense soon ...
 
 LabelFusion
 ===========
@@ -14,6 +10,16 @@ This repo holds the code for LabelFusion.
 - paper: https://ieeexplore.ieee.org/abstract/document/8460950
 - arxiv preprint: https://arxiv.org/abs/1707.04796
 - video: https://www.youtube.com/watch?v=nc65CF1W9B0
+
+
+====
+What is Different? 
+====
+- up dockerfile (support nvidia-docker2)
+Dockerfile refer to https://github.com/ianchen-tw/LabelFusion/blob/master/docker/labelfusion.dockerfile
+
+- Add ros and realsense soon ...
+
 
 ====
 Quick Links
