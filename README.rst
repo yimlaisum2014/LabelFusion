@@ -1,3 +1,7 @@
+===========
+What is Different? 
+Dockerfile refer to https://github.com/ianchen-tw/LabelFusion/blob/master/docker/labelfusion.dockerfile
+Add ros and realsense soon ...
 
 LabelFusion
 ===========
